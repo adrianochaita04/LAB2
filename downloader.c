@@ -114,7 +114,7 @@ int main(int argc, char* argv[]) {
  * Example curl call:
  * curl -s -H "Range: bytes=2-3" https://localhost/testfile.txt -o filename
  */
-void download_fragment(char* url, long from, long to, char* outfile) {
+void download_fragment(char* url, long from, long to, char* outfile){
   char range[200];
   sprintf(range, "Range: bytes=%ld-%ld", from, to);
   printf("Testing %s\n", range);
