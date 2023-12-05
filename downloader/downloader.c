@@ -148,7 +148,13 @@ int are_arguments_correct(int argc, char* argv[]) {
     printf("error: the number of processes has to be greater than 0\n");
     return 0;
   }
+<<<<<<< HEAD
   return 1;
 }
+=======
+return 1;
+}
+
+>>>>>>> dcfa5202f75e38a2a08d5af5d6427f1ea6767c45
 
 
